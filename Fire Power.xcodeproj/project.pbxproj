@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7004DE61D179709005E5781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7004DE51D179709005E5781 /* main.m */; };
+		C7004DE91D179709005E5781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7004DE81D179709005E5781 /* AppDelegate.m */; };
+		C7004DEC1D179709005E5781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7004DEB1D179709005E5781 /* ViewController.m */; };
+		C7004DEF1D179709005E5781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7004DED1D179709005E5781 /* Main.storyboard */; };
+		C7004DF21D179709005E5781 /* Fire_Power.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7004DF01D179709005E5781 /* Fire_Power.xcdatamodeld */; };
+		C7004DF41D179709005E5781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7004DF31D179709005E5781 /* Assets.xcassets */; };
+		C7004DF71D179709005E5781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7004DF51D179709005E5781 /* LaunchScreen.storyboard */; };
+		C7004E021D179709005E5781 /* Fire_PowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7004E011D179709005E5781 /* Fire_PowerTests.m */; };
+		C7004E0D1D179709005E5781 /* Fire_PowerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7004E0C1D179709005E5781 /* Fire_PowerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7004DFE1D179709005E5781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7004DD91D179709005E5781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7004DE01D179709005E5781;
+			remoteInfo = "Fire Power";
+		};
+		C7004E091D179709005E5781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7004DD91D179709005E5781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7004DE01D179709005E5781;
+			remoteInfo = "Fire Power";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7004DE11D179709005E5781 /* Fire Power.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fire Power.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7004DE51D179709005E5781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7004DE71D179709005E5781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7004DE81D179709005E5781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7004DEA1D179709005E5781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7004DEB1D179709005E5781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7004DEE1D179709005E5781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7004DF11D179709005E5781 /* Fire_Power.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fire_Power.xcdatamodel; sourceTree = "<group>"; };
+		C7004DF31D179709005E5781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7004DF61D179709005E5781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7004DF81D179709005E5781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7004DFD1D179709005E5781 /* Fire PowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fire PowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7004E011D179709005E5781 /* Fire_PowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fire_PowerTests.m; sourceTree = "<group>"; };
+		C7004E031D179709005E5781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7004E081D179709005E5781 /* Fire PowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fire PowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7004E0C1D179709005E5781 /* Fire_PowerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fire_PowerUITests.m; sourceTree = "<group>"; };
+		C7004E0E1D179709005E5781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7004DDE1D179709005E5781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7004DFA1D179709005E5781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7004E051D179709005E5781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7004DD81D179709005E5781 = {
+			isa = PBXGroup;
+			children = (
+				C7004DE31D179709005E5781 /* Fire Power */,
+				C7004E001D179709005E5781 /* Fire PowerTests */,
+				C7004E0B1D179709005E5781 /* Fire PowerUITests */,
+				C7004DE21D179709005E5781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7004DE21D179709005E5781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7004DE11D179709005E5781 /* Fire Power.app */,
+				C7004DFD1D179709005E5781 /* Fire PowerTests.xctest */,
+				C7004E081D179709005E5781 /* Fire PowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7004DE31D179709005E5781 /* Fire Power */ = {
+			isa = PBXGroup;
+			children = (
+				C7004DE71D179709005E5781 /* AppDelegate.h */,
+				C7004DE81D179709005E5781 /* AppDelegate.m */,
+				C7004DEA1D179709005E5781 /* ViewController.h */,
+				C7004DEB1D179709005E5781 /* ViewController.m */,
+				C7004DED1D179709005E5781 /* Main.storyboard */,
+				C7004DF31D179709005E5781 /* Assets.xcassets */,
+				C7004DF51D179709005E5781 /* LaunchScreen.storyboard */,
+				C7004DF81D179709005E5781 /* Info.plist */,
+				C7004DF01D179709005E5781 /* Fire_Power.xcdatamodeld */,
+				C7004DE41D179709005E5781 /* Supporting Files */,
+			);
+			path = "Fire Power";
+			sourceTree = "<group>";
+		};
+		C7004DE41D179709005E5781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7004DE51D179709005E5781 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7004E001D179709005E5781 /* Fire PowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7004E011D179709005E5781 /* Fire_PowerTests.m */,
+				C7004E031D179709005E5781 /* Info.plist */,
+			);
+			path = "Fire PowerTests";
+			sourceTree = "<group>";
+		};
+		C7004E0B1D179709005E5781 /* Fire PowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7004E0C1D179709005E5781 /* Fire_PowerUITests.m */,
+				C7004E0E1D179709005E5781 /* Info.plist */,
+			);
+			path = "Fire PowerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7004DE01D179709005E5781 /* Fire Power */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7004E111D179709005E5781 /* Build configuration list for PBXNativeTarget "Fire Power" */;
+			buildPhases = (
+				C7004DDD1D179709005E5781 /* Sources */,
+				C7004DDE1D179709005E5781 /* Frameworks */,
+				C7004DDF1D179709005E5781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fire Power";
+			productName = "Fire Power";
+			productReference = C7004DE11D179709005E5781 /* Fire Power.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7004DFC1D179709005E5781 /* Fire PowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7004E141D179709005E5781 /* Build configuration list for PBXNativeTarget "Fire PowerTests" */;
+			buildPhases = (
+				C7004DF91D179709005E5781 /* Sources */,
+				C7004DFA1D179709005E5781 /* Frameworks */,
+				C7004DFB1D179709005E5781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7004DFF1D179709005E5781 /* PBXTargetDependency */,
+			);
+			name = "Fire PowerTests";
+			productName = "Fire PowerTests";
+			productReference = C7004DFD1D179709005E5781 /* Fire PowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7004E071D179709005E5781 /* Fire PowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7004E171D179709005E5781 /* Build configuration list for PBXNativeTarget "Fire PowerUITests" */;
+			buildPhases = (
+				C7004E041D179709005E5781 /* Sources */,
+				C7004E051D179709005E5781 /* Frameworks */,
+				C7004E061D179709005E5781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7004E0A1D179709005E5781 /* PBXTargetDependency */,
+			);
+			name = "Fire PowerUITests";
+			productName = "Fire PowerUITests";
+			productReference = C7004E081D179709005E5781 /* Fire PowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7004DD91D179709005E5781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sense;
+				TargetAttributes = {
+					C7004DE01D179709005E5781 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C7004DFC1D179709005E5781 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C7004DE01D179709005E5781;
+					};
+					C7004E071D179709005E5781 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C7004DE01D179709005E5781;
+					};
+				};
+			};
+			buildConfigurationList = C7004DDC1D179709005E5781 /* Build configuration list for PBXProject "Fire Power" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7004DD81D179709005E5781;
+			productRefGroup = C7004DE21D179709005E5781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7004DE01D179709005E5781 /* Fire Power */,
+				C7004DFC1D179709005E5781 /* Fire PowerTests */,
+				C7004E071D179709005E5781 /* Fire PowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7004DDF1D179709005E5781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7004DF71D179709005E5781 /* LaunchScreen.storyboard in Resources */,
+				C7004DF41D179709005E5781 /* Assets.xcassets in Resources */,
+				C7004DEF1D179709005E5781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7004DFB1D179709005E5781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7004E061D179709005E5781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7004DDD1D179709005E5781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7004DEC1D179709005E5781 /* ViewController.m in Sources */,
+				C7004DF21D179709005E5781 /* Fire_Power.xcdatamodeld in Sources */,
+				C7004DE91D179709005E5781 /* AppDelegate.m in Sources */,
+				C7004DE61D179709005E5781 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7004DF91D179709005E5781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7004E021D179709005E5781 /* Fire_PowerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7004E041D179709005E5781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7004E0D1D179709005E5781 /* Fire_PowerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7004DFF1D179709005E5781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7004DE01D179709005E5781 /* Fire Power */;
+			targetProxy = C7004DFE1D179709005E5781 /* PBXContainerItemProxy */;
+		};
+		C7004E0A1D179709005E5781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7004DE01D179709005E5781 /* Fire Power */;
+			targetProxy = C7004E091D179709005E5781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7004DED1D179709005E5781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7004DEE1D179709005E5781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7004DF51D179709005E5781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7004DF61D179709005E5781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7004E0F1D179709005E5781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7004E101D179709005E5781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7004E121D179709005E5781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fire Power/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Fire-Power";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7004E131D179709005E5781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fire Power/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Fire-Power";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7004E151D179709005E5781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fire PowerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Fire-PowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fire Power.app/Fire Power";
+			};
+			name = Debug;
+		};
+		C7004E161D179709005E5781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fire PowerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Fire-PowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fire Power.app/Fire Power";
+			};
+			name = Release;
+		};
+		C7004E181D179709005E5781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fire PowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Fire-PowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fire Power";
+			};
+			name = Debug;
+		};
+		C7004E191D179709005E5781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fire PowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Fire-PowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fire Power";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7004DDC1D179709005E5781 /* Build configuration list for PBXProject "Fire Power" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7004E0F1D179709005E5781 /* Debug */,
+				C7004E101D179709005E5781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7004E111D179709005E5781 /* Build configuration list for PBXNativeTarget "Fire Power" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7004E121D179709005E5781 /* Debug */,
+				C7004E131D179709005E5781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7004E141D179709005E5781 /* Build configuration list for PBXNativeTarget "Fire PowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7004E151D179709005E5781 /* Debug */,
+				C7004E161D179709005E5781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7004E171D179709005E5781 /* Build configuration list for PBXNativeTarget "Fire PowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7004E181D179709005E5781 /* Debug */,
+				C7004E191D179709005E5781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7004DF01D179709005E5781 /* Fire_Power.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7004DF11D179709005E5781 /* Fire_Power.xcdatamodel */,
+			);
+			currentVersion = C7004DF11D179709005E5781 /* Fire_Power.xcdatamodel */;
+			path = Fire_Power.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7004DD91D179709005E5781 /* Project object */;
+}
