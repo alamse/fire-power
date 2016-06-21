@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HealthkitManager.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,44 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    [[UIApplication sharedApplication]
+//     setMinimumBackgroundFetchInterval:
+//     UIApplicationBackgroundFetchIntervalMinimum];
+    
+    // TODO: Register Step Active On Background
+    HealthkitManager *healthKit = [HealthkitManager sharedInstance];
+    [healthKit requestAuthorizeHealthKit:^(BOOL success, NSError *error){
+        if (success == NO) {
+            NSLog(@"not authorized");
+        }else{
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                [healthKit setStepActiveOnBackground];
+            });
+            
+        }
+    }];
+    
     return YES;
+}
+
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
+    NSLog(@"Background fetch started...");
+    
+    //---do background fetch here---
+    // You have up to 30 seconds to perform the fetch
+    
+    BOOL downloadSuccessful = YES;
+    
+    if (downloadSuccessful) {
+        //---set the flag that data is successfully downloaded---
+        completionHandler(UIBackgroundFetchResultNewData);
+    } else {
+        //---set the flag that download is not successful---
+        completionHandler(UIBackgroundFetchResultFailed);
+    }
+    
+    NSLog(@"Background fetch completed...");
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -43,6 +80,8 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+
 
 #pragma mark - Core Data stack
 
